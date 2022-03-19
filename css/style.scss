@@ -1,0 +1,40 @@
+@import "_style";
+
+$fz:50px;
+$color-1: #777;
+$color-2: blue;
+$lh: 50px;
+
+%tplborder{
+    border-bottom: 5px solid red;
+}
+.link {
+    color:$color-2;
+    @extend %tplborder;
+    font-size: $fz;
+}
+.link-2 {
+    font-size: $fz;
+    color: $color-2;
+    @extend %tplborder;
+    line-height: $lh;
+}
+.link-3 {
+    font-size: $fz;
+    color: $color-2;
+    @extend %tplborder;
+    &:hover {color: yellow}
+    line-height: $lh;
+}
+.block_text {
+    font-size: $fz;
+    color: $color-2;    
+    line-height: $lh;
+    @extend %tplborder;
+
+}   
+.block_all {
+    width: 300px/960px*100%;
+    padding: 30px;
+    background: grey;
+}

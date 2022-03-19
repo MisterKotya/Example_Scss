@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.link, .link-2, .link-3, .block_text {
+  border-bottom: 5px solid red;
+}
+
+.link {
+  color: blue;
+  font-size: 50px;
+}
+
+.link-2 {
+  font-size: 50px;
+  color: blue;
+  line-height: 50px;
+}
+
+.link-3 {
+  font-size: 50px;
+  color: blue;
+  line-height: 50px;
+}
+.link-3:hover {
+  color: yellow;
+}
+
+.block_text {
+  font-size: 50px;
+  color: blue;
+  line-height: 50px;
+}
+
+.block_all {
+  width: 31.25%;
+  padding: 30px;
+  background: grey;
+}
+
+/*# sourceMappingURL=style.css.map */
